@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Posture Detection</title>
+  </head>
+  <body>
+    <div class="video">
+      <h1>Your Video</h1>
+      <img src="{{url_for('video')}}" alt="video" width="50%" class="frame">
+      <h3>
+        {{Posture}}
+      </h3>
+    </div>
+  </body>
+</html>
